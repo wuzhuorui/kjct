@@ -1,0 +1,17 @@
+
+chuck/kjct/.vs/kjct/v15/.suo
+chuck/kjct/.vs/kjct/v15/Browse.VC.db
+chuck/kjct/.vs/kjct/v15/ipch/AutoPCH/6d9fc7421f6391a/FINDWORD.ipch
+*.ipch
+chuck/kjct/Debug/kjct.exe
+chuck/kjct/Debug/kjct.ilk
+chuck/kjct/Debug/kjct.pdb
+chuck/kjct/kjct/Debug/findword.obj
+chuck/kjct/kjct/Debug/kjct.Build.CppClean.log
+chuck/kjct/kjct/Debug/kjct.log
+chuck/kjct/kjct/Debug/kjct.tlog/CL.command.1.tlog
+*.tlog
+chuck/kjct/kjct/Debug/main.obj
+chuck/kjct/kjct/Debug/vc141.idb
+chuck/kjct/kjct/Debug/vc141.pdb
+chuck/kjct/kjct/Debug/wordmap.obj
