@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{1E6D2F39-4295-424D-839C-81E101D93F84}</ProjectGuid>
+    <ProjectGuid>{AAFD67DB-F566-4FBE-BEBD-1FC311D2903D}</ProjectGuid>
     <RootNamespace>kjct</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -115,12 +115,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Debug.cpp" />
+    <ClCompile Include="Document.cpp" />
     <ClCompile Include="findword.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Nword.cpp" />
     <ClCompile Include="wordmap.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="Document.h" />
     <ClInclude Include="findword.h" />
+    <ClInclude Include="Nword.h" />
     <ClInclude Include="wordmap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

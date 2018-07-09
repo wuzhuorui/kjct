@@ -7,7 +7,7 @@
     </Filter>
     <Filter Include="头文件">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
@@ -15,21 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Debug.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="wordmap.cpp">
+    <ClCompile Include="Document.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="findword.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Nword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wordmap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="wordmap.h">
+    <ClInclude Include="Debug.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Document.h">
       <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="findword.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Nword.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wordmap.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,16 +1,20 @@
-#include"wordmap.h"
 #include<iostream>
-#include<string>
+using std::cin;
+using std::cout;
+#include"wordmap.h"
+#include"Debug.h"
 #include"findword.h"
-using std::string;
-int main()
-{
-
-	WordMap m_wordmap("../../../word/word1.txt");
-	FindWord m_findword;
-	if (!m_wordmap.init()) { return 0; };
-	vector<string> res= m_findword.GetKeyWords("../../../inputfile/1999.txt", m_wordmap);
-	for (auto elems : res)
-		std::cout << elems << " ";
+#include"Document.h"
+int main() {
+	WordMap m_wordmap("word/word1.txt");
+	if (!m_wordmap.init()) {
+		Debug::GetInstance()->LogInfo("m_wordmap init() failed");
+	}
+	Document document;
+	FindWord findword;
+	findword.GetWords("./input/0.txt", m_wordmap, document);
+	//Debug::GetInstance()->LogInfo(document);
+	document.make_word(m_wordmap);
+	Debug::GetInstance()->LogInfo(document);
 	return 0;
 }
