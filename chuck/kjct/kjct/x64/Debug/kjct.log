@@ -1,0 +1,14 @@
+﻿  Debug.cpp
+  Document.cpp
+d:\svn\kjct\chuck\kjct\kjct\document.cpp(46): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\svn\kjct\chuck\kjct\kjct\document.cpp(47): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  findword.cpp
+d:\svn\kjct\chuck\kjct\kjct\findword.cpp(57): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\svn\kjct\chuck\kjct\kjct\findword.cpp(98): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+  Nword.cpp
+d:\svn\kjct\chuck\kjct\kjct\nword.cpp(29): warning C4244: “初始化”: 从“unsigned __int64”转换到“double”，可能丢失数据
+d:\svn\kjct\chuck\kjct\kjct\nword.cpp(65): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  wordmap.cpp
+  正在生成代码...
+  kjct.vcxproj -> D:\SVN\kjct\chuck\kjct\x64\Debug\kjct.exe
